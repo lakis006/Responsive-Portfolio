@@ -1,8 +1,22 @@
 body {
-    background-color: rgb(18, 173, 224);
+    background-color: white;
+}
+
+header {
+    padding-bottom: 50px;
+    
+    margin-bottom:50px;
+}
+
+form {
+    padding: 30px;
 }
 
 .navbar-nav {
     position: absolute;
     right: 0px;
+}
+
+.card-deck {
+    padding: 25px;
 }
