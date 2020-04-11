@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(18, 173, 224);
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 0px;
+}
