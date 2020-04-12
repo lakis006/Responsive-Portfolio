@@ -16,6 +16,14 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
         <link rel="stylesheet" href="Assets/styles.css">
+
+        <style>
+            body {
+                background-image: url(Assets/backpage.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        </style>
     <title>Responsive Portfolio</title>
 </head>
 
@@ -24,7 +32,7 @@
         <nav>
             <!-- insert Navbar here             -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Jamal Lakis</a>
+                <strong><a class="navbar-brand" href="#">Jamal Lakis</a></strong>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -32,13 +40,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Porfolio</a>
+                            <a class="nav-link" href="portfolio.html">Porfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Me</a>
+                            <a class="nav-link" href="Index.html">About Me</a>
                         </li>
                     </ul>
                 </div>
@@ -46,30 +54,47 @@
         </nav>
     </header>
 
-    <div class="container"> This is A container
+    <hr class="new-line">
 
+    <div class="container">
+        <div class="jumbotron">
         <div class="row">
-
-            <div class="col-md-8">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
+            <div class="col-md-12">
+                <h2>About Me</h2>
             </div>
-
-            <div class="col-md-4">
-
-            </div>
-
         </div>
-
+        <hr width="20%">
+        <br>
+        <div class="row">
+        <div class="col-md-6">
+        <img class="img1">
+        <img src="Assets\newprof.JPG" />
     </div>
-    <footer>
-        <!-- insert footer here -->
 
-    </footer>
+    <div class="col-md-6">
+        <p>
+            Hi, I'm Jamal! I am in the process of becoming a full stack developer with interests to growing
+            individually. 
+            I prefer a good challenge, but I do tend to struggle sometimes.
+            I enjoy exploring new technologies and trying out the latest gadgets.
+            <br><br>
+            I studied Political Science at the
+            University of Minnesota Twin Cities.
+            My core classes consisted of management, project management, Consumer relationship management,
+            sales, marketing, and more.
+            I am proficient in Microsoft office (excel, word, PowerPoint, etc.), and SharePoint.
+
+        </p>
+    </div>
+    
+    </div>
+</div>
+
+
+    <br>
+    <hr class="line">
+    <footer class>Copyright© 2018</footer>
+
 </body>
 
 </html>

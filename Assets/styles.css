@@ -8,15 +8,115 @@ header {
     margin-bottom:50px;
 }
 
-form {
-    padding: 30px;
-}
-
 .navbar-nav {
     position: absolute;
     right: 0px;
 }
 
+
+
+/* top hr line */
+.new-line {
+    position: absolute;
+    top: 40px;
+}
+
+
+/* for contact page */
+form {
+    padding: 30px;
+    
+}
+
+.form-group {
+    color: white;
+}
+
+.col-auto {
+    position: relative;
+    left: 42%;
+}
+
+
+
+
 .card-deck {
     padding: 25px;
+    text-align: center;
+    position: relative;
+    top: -15px;
+
+}
+
+
+
+/* Big Message on Index pg*/
+.jumbotron {
+    
+    margin-left: 10%;
+    float: bottom;
+    width: 800px;
+    height: 500px;   
+    display: table-cell;
+    vertical-align: middle; 
+    position: absolute;
+    
+} 
+
+
+
+
+
+
+h2 {
+    float: right;
+}
+
+img {
+    border-radius: 70%;
+    width: 90%;
+    float: left;
+    position: relative;
+}
+
+/* line on top and bottom */
+hr {
+    background: goldenrod;
+    padding: 5px;
+    width: 100%;
+    clear: both;
+
+}
+
+
+.card {
+    margin-bottom: 40%;
+   border: none;
+}
+
+
+/* bottom hr line */
+.line {
+    bottom: 2.7%;
+    position: bottom;
+    display: block;
+    left: 0;
+    position: fixed;
+    right: 0;
+    Width: auto;
+}
+
+footer {
+    background-color: rgb(38, 44, 44);
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    bottom: -20px;
+    left: 0;
+    position: fixed;
+    right: 0;
 }
