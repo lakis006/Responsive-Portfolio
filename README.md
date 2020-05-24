@@ -8,4 +8,6 @@ Also, using the bootstrap grid system, these files were built with containers ro
 
 Attached to each of the pages would be an internal css file that styles each site with a similar header, navbar, and footer
 
-Symantic 
+The link the the deployed app is => https://lakis006.github.io/Responsive-Portfolio/
+
+
